@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+h1{
+  text-align: center;
+}
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.central {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imc, .Tabresultado {
+  width: 48%;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+li,p{
+  font-weight: bold;
+
+}
+
+/* CORES RESULTADO*/
+
+.abaixo-peso {
+  color: #e9d200;
+  
+}
+
+.peso-normal {
+  color: green;
+}
+
+.sobre-peso {
+  color: orange;
+}
+
+.obesidade-grau-1 {
+  color: red;
+}
+
+.obesidade-grau-2 {
+  color: darkred;
+}
+
+.obesidade-grau-3 {
+  color: rgb(128, 0, 0);
+}
+
+div.abaixo-peso {
+  border: 1px solid #e9d200;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.peso-normal {
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.sobre-peso {
+  border: 1px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.obesidade-grau-1 {
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.obesidade-grau-2 {
+  border: 1px solid darkred;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.obesidade-grau-3 {
+  border: 1px solid rgb(128, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+}
